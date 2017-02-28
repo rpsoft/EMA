@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-Apr-2015, 13:23:06
+    Author     : jesus
+*/
+body,html{
+    width:100%;height:100%;
+}
+.outsideWrapper{ 
+    width:100%; height:100%; 
+  
+    border:1px solid blue;}
+.insideWrapper{ 
+    width:100%; height:100%; 
+    position:relative;}
+.coveredImage{ 
+    width:100%; height:100%; 
+    position:absolute; top:0px; left:0px;
+}
+.coveringCanvas{ 
+    width:100%; height:100%; 
+    position:absolute; top:0px; left:0px;
+   
+}
+#c{
+    background-color: red;
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    border: #111;
+    border-width: 5px;
+    border-style: solid
+}
